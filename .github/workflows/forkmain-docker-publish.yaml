@@ -8,8 +8,8 @@ env:
   REGISTRY_REPO: h8r-dev
   IMAGE_NAME: h8r-dev/forkmain-demo-api
   ORG: h8r-dev
-  HELM_REPO: demo-forkmain-deploy
-  APP_NAME: demo
+  HELM_REPO: fm-demo-forkmain-deploy
+  APP_NAME: fm-demo
   SERVICE_NAME: api
 jobs:
   build-and-push-image:
