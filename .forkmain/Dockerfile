@@ -18,6 +18,6 @@ WORKDIR /workdir
 
 COPY --from=builder /workdir/build/ ./
 
-EXPOSE 3000
+EXPOSE 8000
 
 CMD ["sh", "-c", "./app"]
